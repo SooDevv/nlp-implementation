@@ -1,0 +1,16 @@
+{
+  "filepath":{
+    "tr": "../data/nsmc/ratings_train.txt",
+    "tst": "../data/nsmc/ratings_test.txt",
+    "vocab": "../data/nsmc/vocab.pkl",
+    "ckpt": "../checkpoint/model_ckpt.tar"
+  },
+
+  "num_classes": 2,
+
+  "training": {
+    "epochs": 10,
+    "batch_size": 128,
+    "lr": 1e-3
+  }
+}
